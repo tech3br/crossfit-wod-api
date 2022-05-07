@@ -20,3 +20,5 @@ router.patch("/:workoutId", (req, res) => {
 router.delete("/:workoutId", (req, res) => {
   res.send("Delete an existing workout");
 });
+
+module.exports = router;
